@@ -14,7 +14,7 @@ SELECT * FROM GROCERY_ITEMS;
 INSERT INTO GROCERY_ITEMS
 (item_id, item_name, category,quantity,price,weight,date_added, expiration_date)
 VALUES
-(1, 'RICE', 'GRAINS', 2, 12.99, 5.0, DATE '2026-10-20', DATE '2027-10-20'),(1,
+(1, 'RICE', 'GRAINS', 2, 12.99, 5.0, DATE '2026-10-20', DATE '2027-10-20'),
 (2, 'WHOLE MILK', 'DAIRY', 2, 3.49, 8.6, DATE '2026-10-06', DATE '2026-10-28'),
 (3, 'CHEDDAR CHEESE', 'DAIRY', 15, 5.00, 1.0, DATE '2026-10-10', DATE '2027-01-15'),
 (4, 'WHEAT BREAD', 'BAKERY', 25, 2.99, 1.5, DATE '2026-10-18', DATE '2026-10-25'),
